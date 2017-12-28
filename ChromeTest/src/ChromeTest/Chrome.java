@@ -10,6 +10,8 @@ public class ChromeBrow {
 	WebDriver driver = new ChromeDriver();	
 	
 	driver.get("www.google.pl");
+	
+	driver.forwadr();
 	driver.close();
 
 	
